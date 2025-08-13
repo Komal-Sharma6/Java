@@ -1,2 +1,3 @@
 # Java
-Contains coding questions in java.
+Contains coding questions in Java.
+-Komal Sharma
