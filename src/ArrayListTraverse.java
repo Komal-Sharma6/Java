@@ -11,6 +11,9 @@ public class ArrayListTraverse {
         for(int i=0; i<5; i++){
             System.out.println(fruits.get(i));
         }
+        for(String i:fruits){
+            System.out.println(i);
+        }
     }
 
 }
