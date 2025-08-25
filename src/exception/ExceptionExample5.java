@@ -1,4 +1,4 @@
-//Different way of printing Exception
+package exception;//Different way of printing Exception
 
 public class ExceptionExample5 {
     public static void main(String [] args){

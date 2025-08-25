@@ -1,4 +1,4 @@
-//FileNotFoundException
+package exception;//FileNotFoundException
 //Checked Exception
 
 import java.io.FileInputStream;

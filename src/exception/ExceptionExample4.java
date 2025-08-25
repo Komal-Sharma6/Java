@@ -1,4 +1,4 @@
-//NullPointerException
+package exception;//NullPointerException
 
 public class ExceptionExample4 {
     public static void main(String[] args){
