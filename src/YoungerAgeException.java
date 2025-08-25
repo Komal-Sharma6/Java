@@ -1,6 +1,8 @@
+// throws keyword usage
+// customize RunTimeException
+
 import java.util.Scanner;
 
-// throws keyword usage
 public class YoungerAgeException extends RuntimeException{
     YoungerAgeException(String msg){
         super(msg);
