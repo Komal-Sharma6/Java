@@ -1,7 +1,9 @@
 package Collections;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 public class ArrayListSort {
     public static void main(String[] args) {
         ArrayList<String> books = new ArrayList<>();
@@ -23,11 +25,12 @@ public class ArrayListSort {
         squares.add(9);
         squares.add(25);
 
-        Collections.sort(squares);
+        squares.sort((a,b)->b-a);
 
         for(Integer i : squares){
             System.out.println(i);
         }
+
 
 
 

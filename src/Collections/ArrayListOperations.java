@@ -1,6 +1,8 @@
 package Collections;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class ArrayListOperations {
 
@@ -42,7 +44,34 @@ public class ArrayListOperations {
 
             // To remove all the elements
 
-            cars.clear();
+           // cars.clear();
+
+            List<Integer> list = Arrays.asList(1,2,3,4);
+            //add or remove operation cannot be performed as , asList method returns fixed
+            //list.add(5);
+
+            //To add element to "list"
+            List<Integer> list2 = new ArrayList<>(list);
+            list2.add(5);
+
+            //To replace element
+            list2.set(2,0);
+
+            System.out.println(list2);
+
+            //addALL operation
+            List<String> list3 = List.of("Aarya","Prachi","Jaya","Himanshu");
+            List<String> list4 = new ArrayList<>();
+            list4.add("Bhanu");
+            list4.add("Vayu");
+            list4.add("Jaggu");
+            list4.addAll(list3);
+            System.out.println(list4);
+
+            //To covert list into a array
+            Integer[] array = list4.toArray(new Integer[0]);
+
+
         }
 
     }
